@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        body{
+            background-color: rgb(133, 79, 185);
+        }
+        header{
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+        img{
+            border: 1px solid yellow;
+            border-radius: 50%;
+            margin-top: 10px;
+            margin-left: 55px;
+        }
+        #left-content{
+            background-color: rgb(82, 76, 76);
+            color: white;
+            margin-left: 11px;
+            margin-top: 20px;
+            border-radius: 30px;
+        }
+        .cont{
+            display: grid;
+            grid-template-columns: 4fr 8fr;
+        }
+    </style>
+    
+</head>
+<body class="container-fluid">
+    <header>
+        <div style="margin-left: 20px; color: whitesmoke">
+            <h3 class="mt-2">My portfolio.</h3>
+        </div>
+        <div>
+            <span class="me-2 mt-2"><button class="btn btn-success">Home</button></span>
+            <span class="me-2 mt-2"><button class="btn btn-success">Personal Project</button></span>
+            <span class="me-2 mt-2"><button class="btn btn-success" data-bs-target="#details" data-bs-toggle="modal">Contact</button></span>
+        </div>
+    </header>
+    <section class="row">
+        <div class="col-3" id="left-content">
+            <img src="../public/images/idphoto1.jpg" height="200px" width="200px">
+            <div style="display: flex; margin-left: 25px; margin-top: 10px;">
+                <h3>Front End Devloper</h3>
+            </div>
+            <div>
+                <h4 style="margin-left: 20px; text-decoration: underline;">Self-evalution</h4>
+                <p style="margin-left: 20px;">Good team skills and interpersonal skills, good team cooperation:Excellent learning ability, can quickly master new knowladge and skills: cheerful and optimistic, job phsycograph with healthy mind and love life.</p>
+            </div>
+            <div>
+                <h4 style="margin-left: 20px; text-decoration: underline;">Personal Skill</h4>
+                <ul>
+                    <li>Time Mangement</li>
+                    <li>Self-Motivated</li>
+                    <li>Team-building</li>
+                    <li>Flexible and Adaptable</li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-left: 20px; text-decoration: underline;">Technical Skills</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BOOTSTRAP</li>
+                    <li>SASS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JQUERY</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <main class=" row col-9 d-flex flex-wrap overflow-auto">
+            <div>
+                <div style="margin-top: 30px;">
+                    <h4 class="m-lg-3">Hello,Team..</h4><br>
+                    <h2 class="ms-lg-5">I am SUDHANSU JENA</h2>
+                    <div class="d-flex justify-content-lg-start ms-5">
+                        <h3>Job Search Intention : Ui Front End Devloper</h3>
+                    </div>
+                    <div>
+                        <marquee style="width: 600px; margin-left: 50px; color: whitesmoke;">
+                            I am Fresher and I'm looking for a job Front End Devloper...
+                        </marquee>
+                    </div>
+                </div>
+                <div class="accordion mt-5" id="first">
+                    <div class="accordion-item w-75 ms-5">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#para-1" data-bs-toggle="collapse">Professional Summary</button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="para-1" data-bs-parent="#first">
+                            <div class="accordion-body ms-4 w-75">
+                                <p style="text-align: justify;">Detail-oreinted Mechanical Engineering major(7.5 CGPA)Completed Graduation from Einstein Academy of Technology and Mangement.Aiming to leverege proven creative thinking,organizational,and problem solving skills to successfully fill the software Engineer role at your company.Frequently praised as hard-working by my peers, i can be relied upon to help your achive its goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item w-75 ms-5">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#para-2" data-bs-toggle="collapse">Educational Backround</button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="para-2" data-bs-parent="#first">
+                            <div class="accordion-body ms-4">
+                                <p>2019-2023 <br>
+                                    B.Tech.Mechanical Engineering <br>
+                                    BPUT <br>
+                                    2015-2019 <br>
+                                    Diploma <br>
+                                    SCTE & VT
+                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item w-75 ms-5">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#para-3" data-bs-toggle="collapse">Language Known</button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="para-3" data-bs-parent="#first">
+                            <div class="accordion-body ms-4">
+                                <ul>
+                                    <li>Odia</li>
+                                    <li>Hindi</li>
+                                    <li>English</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Skill Ratings.</h3>
+            </div>
+            <div class="cont">
+                <div style="margin-left: 150px;">
+                    <div><h4>Html</h4></div>
+                    <div><h4>Css</h4></div>
+                    <div><h4>Bootstrap</h4></div>
+                    <div><h4>Sass</h4></div>
+                    <div><h4>JavaScript</h4></div>
+                    <div><h4>Jquery</h4></div>
+                </div>
+                <div>
+                    <div class="progress w-75 me-5">
+                        <div class="progress-bar bg-info" style="width: 90%;"><span style="color: black;">90%</span></div>
+                    </div>
+                    <div class="progress w-75 mt-4">
+                        <div class="progress-bar bg-info" style="width: 80%;"><span style="color: black;">80%</span></div>
+                    </div>
+                    <div class="progress w-75 mt-4">
+                        <div class="progress-bar bg-info" style="width: 80%;"><span style="color: black;">80%</span></div>
+                    </div>
+                    <div class="progress w-75 mt-4">
+                        <div class="progress-bar bg-info" style="width: 70%;"><span style="color: black;">70%</span></div>
+                    </div>
+                    <div class="progress w-75 mt-4">
+                        <div class="progress-bar bg-info" style="width: 65%;"><span style="color: black;">65%</span></div>
+                    </div>
+                    <div class="progress w-75 mt-4">
+                        <div class="progress-bar bg-info" style="width: 60%;"><span style="color: black;">60%</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="details">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Contact-Details</h3>
+                            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div>
+                                <span class="bi bi-phone">8144001962,</span>
+                                <span class="bi bi-whatsapp">7377687796</span>
+                            </div>
+                            <div><span class="bi bi-envelope-fill">Email: jenasudhansu889@gmail.com</span></div>
+                            <div>
+                                <h3>Address:</h3>
+                                <ul style="list-style: none;">
+                                    <li>At-Lambodar pur</li>
+                                    <li>Po-Ghiakhala</li>
+                                    <li>Ps-Balugaon</li>
+                                    <li>dist-Khurda,Odisha</li>
+                                    <li>Pin-752030</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>
