@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 15px 0px;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 20px;
+    transition: all ,0s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    box-shadow: 5px 5px 5px red;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(6, 125, 27);
+    color: white;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+#content1{
+    margin-top: 10px;
+    border: 2px solid gray;
+    box-shadow: 10px 10px 10px gray;
+}
+#self{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 300px;
+    background-color: rgb(68, 7, 125);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    
+}
+p{
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 50px 20px;
+    text-overflow: clip;
+}
+#Education{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 350px;
+    background-color: rgb(68, 7, 125);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card{
+    margin-top: 15px;
+    display: flex;
+    border: 2px solid rgb(255, 0, 174);
+    box-shadow: 10px 10px 10px rgb(110, 46, 17);
+}
+#c-head{
+    background-color: rgb(151, 8, 63);
+    color: white;
+}
+#c-body{
+    display: flex;
+    background-color: rgb(39, 113, 113);
+    color: white;
+    height: 220px;
+
+}
+
