@@ -1,0 +1,13 @@
+.navbar ul{
+      flex-wrap: wrap;
+      justify-content: center;
+}
+#home{
+      height: 820px;
+}
+.headings{
+      font-size: 1.5rem;
+}
+.main{
+      width: 100%;
+}

@@ -1,65 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio</title>
+      <link rel="stylesheet" href="../ui-portfolio/src/style.css">
+      <link rel="stylesheet" media="screen and(max-width:800px) " href="../ui-portfolio/src/tablet.css">
+      <link rel="stylesheet" media="screen and(max-width:530px) " href="../ui-portfolio/src/mobile.css">
 </head>
-<body class="container-fluid">
-    <nav class="navbar">
-        <h2><span class="one">𝐏𝐨𝐫𝐭</span><span class="two">𝐟𝐨𝐥𝐢𝐨</span></h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="public/about.html">About Me</a></li>
-            <li><a href="#">Personal Project</a></li>
-            <li><a href="" data-bs-toggle="modal" data-bs-target="#details">contact</a></li>
-        </ul>
-    </nav>
-    <section id="home">
-        <div class="main">
-           <div con1>
-            <h4>ℌ𝔢𝔩𝔩𝔬 𝔱𝔢𝔞𝔪,</h4>
-           <h2><span class="one">I AM SUDHANSU</span><span class="two">&nbsp; JENA</span></h2>
-           <h3>𝓘 𝓪𝓶 𝓪 𝓕𝓻𝓸𝓷𝓽 𝓔𝓷𝓭 𝓦𝓮𝓫 𝓓𝓮𝓿𝓵𝓸𝓹𝓮𝓻</h3>
-           </div>
-           <div con2>
-            <img src="public/images/photo.png" width="250" height="250">
-           </div>
-           <div><button class="btn  text-white">Hire me</button></div>
-        </div>
-    </section>
-    <div class="modal fade" id="details">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3>Contact-Details</h3>
-                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <div>
-                        <span class="bi bi-phone">8144001962,</span>
-                        <span class="bi bi-whatsapp">7377687796</span>
-                    </div>
-                    <div><span class="bi bi-envelope-fill">Email: jenasudhansu889@gmail.com</span></div>
-                    <div>
-                        <h3>Address:</h3>
-                        <ul style="list-style: none;">
-                            <li>At-Lambodar pur</li>
-                            <li>Po-Ghiakhala</li>
-                            <li>Ps-Balugaon</li>
-                            <li>dist-Khurda,Odisha</li>
-                            <li>Pin-752030</li>
-                        </ul>
-                    </div>
-                </div>
+<body>
+       <nav class="navbar">
+             <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Service</a></li>
+                  <li><a href="#project">Project</a></li>
+                  <li><a href="#contact">Contact</a></li>
+            </ul>
+      </nav>
+      <section id="home">
+            <div class="main">
+                  <h2 class="heading-3">Hello team,</h2>
+                  <h2 class="heading-1">I AM SUDHANSU JENA </h2>
+                  <h1 class="heading-1">FRONT END DEVLOPER</h1>
+                  <div class="pic">
+                        <img src="../public/images/idphoto.jpg">
+                  </div>
             </div>
-        </div>
-    </div>
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      </section>
+      <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="">
+                  
+                  <div id="intro">
+                       <div class="card">
+                        <div class="card-body">
+                            <h3>Skills:</h3>
+                            <dl>
+                              <dt>Html </dt>
+                              <dd>
+                                    <div class="box-1">
+                                          <div class="box-2"></div>
+                                    </div>
+                              </dd>
+                              <dt>Css</dt>
+                              <dd>
+                                    <div class="box-1">
+                                          <div class="box-2"></div>
+                                    </div>
+                              </dd>
+                              <dt>Bootstrap</dt>
+                              <dd>
+                                    <div class="box-1">
+                                          <div class="box-3"></div>
+                                    </div>
+                              </dd>
+                              <dt>Javascript</dt>
+                              <dd>
+                                    <div class="box-1">
+                                          <div class="box-4"></div>
+                                    </div>
+                              </dd>
+                              <dt>React</dt>
+                              <dd>
+                                    <div class="box-1">
+                                          <div class="box-6"></div>
+                                    </div>
+                              </dd>
+                            </dl>
+                            <div class="para">
+                              <p>Greetings!</p>
+                              <p>I'm a web devloper.Graduated in Mechanical Engineering from Einstein Academy of Technology and Mangement,Bhubaneswar.
+                                 Aiming to Leverage proven craetive thinking organizetional and problem solving skills to successfully fill the software Engineering role at your company.
+                                 Frequently praised as hard-working by my peers,i can be relied upon to help your company achive its goals.
+                              </p>
+                            </div>
+                            <div class="card-footer">
+                              <button><a href="#">Download CV</a></button>
+                            </div>
+                        </div>
+                       </div>
+                  </div>
+            </div>
+
+      </section>
+      <section id="services">
+            <h1 class="headings">SERVICES</h1>
+            <div class="row">
+                  <div class="box">
+                        <img src="../public/images/website.jpg" height="100px" width="100px">
+                        <h1 class="headings-2">Website <br> Design</h1>
+                        <p>Provides a wide arry of website design services for small as well as large enterprises.
+                           Use the latest technologies and proven strateties to create business websites & dynamic web application. </p>
+                  </div>
+                  <div class="box">
+                        <img src="../public/images/ui.png" height="100px" width="100px">
+                        <h1 class="headings-2">UI/UX <br>Design</h1>
+                        <p>We create professional websites for corporates with industry specislized look.
+                           User interface(UI) and user exprience(UX) design of any web-based solution.</p>
+                  </div>
+                  <div class="box">
+                        <img src="../public/images/digital.png" height="100px" width="100px">
+                        <h1 class="headings-2">Digtal<br>Marketing</h1>
+                        <p>Use digital marketing services for social media to build brand awareness,customer loyality,and clint satisfaction.</p>
+                  </div>
+            </div>
+      </section>
+      <section id="project">
+            <h1 class="headings">PROJECTS</h1>
+            <div class="row">
+                  <div class="box">
+                        <img src="../public/images/htmllogo.jpg" height="350px" width="300px">
+                    <div>
+                        <p>Landing page using HTML&CSS</p>
+                        <a href="#">Click</a>
+                    </div>
+                  </div>
+                  <div class="box">
+                        <img src="../public/images/hcj.png" height="350px" width="300px">
+                    <div>
+                        <p>Calculater using HTML,CSS&JS</p>
+                        <a href="#">Click</a>
+                    </div>
+                  </div>
+                 
+            </div>
+      </section>
+      <section id="contact">
+            <h1 class="headings">CONTACT</h1>
+            <div class="box-5">
+                  <div class="contacts">
+                       <div>
+                        <ul>
+                              <li><h2>Name:Sudhansu Jena</h2></li>
+                              <li><h2>Profile:Front-End Devloper</h2></li>
+                              <li><h2>Mob:8144001962</h2></li>
+                              <li><h2><span><img src="../public/images/whatsAap.jpg" width="20px" height="20px"></span>
+                                    WhatsApp:7377687796</h2></li>
+                        </ul>
+                       </div>
+                  </div>
+                  <div class="link-items">
+                        <ul>
+                            <li><span><a href="#"><img src="../public/images/linkdin.jpg" height="20px" width="20px"></a></span>
+                              <span><a href="#"><img src="../public/images/intagram.jpg" height="20px" width="20px"></a></span>
+                              <span><a href="#"><img src="../public/images/facebook.jpg" height="20px" width="20px"></a></span>
+                              <span><a href="#"><img src="../public/images/twitter.jpg" height="20px" width="20px"></a></span>
+                            </li>
+                        </ul>
+                  </div>
+            </div>
+      </section>
+      <footer>
+           <ul>
+            <li><h2>SUDHANSU JENA</h2></li>
+            <li><h4>COPYRIGHT&copy;2023</h4></li>
+           </ul>
+      </footer>
 </body>
 </html>
