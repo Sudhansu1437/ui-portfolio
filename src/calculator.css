@@ -3,26 +3,27 @@
       margin: 0;
       box-sizing: border-box;
 }
-.container{
+#container{
       width: 100%;
       height: 100vh;
       background-color: rgb(15, 20, 20);
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
 }
 .calculator{
+      width: 350px;
+      height: 500px;
       background: rgb(94, 93, 91);
-      padding: 20px;
+      padding: 25px;
       border-radius: 10px;
-      box-shadow: 5px 5px 15px rgb(204, 202, 202);
 }
 .calculator form input{
       border: 0;
-      width: 60px;
-      height: 60px;
+      width: 50px;
+      height: 50px;
       border-radius: 10%;
-      box-shadow: 5px 5px 15px rgb(91, 83, 83),5px 5px 5px rgb(132, 94, 94);
       font-size: 20px;
       color: blue;
       margin: 10px;
@@ -30,7 +31,9 @@
 }
 form .display{
       display: flex;
+      width: 290px;
       justify-content: center;
+      
 }
 form .display input{
       text-align: right;
@@ -40,5 +43,5 @@ form .display input{
       border-radius: 0;
 }
 form input.equal{
-      width: 145px;
+      width: 125px;
 }
