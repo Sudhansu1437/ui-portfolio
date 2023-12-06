@@ -266,6 +266,7 @@ ul li{
 }
 footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: rgb(47, 24, 68);
     color: white;
