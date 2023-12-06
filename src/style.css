@@ -43,14 +43,15 @@ html{
     justify-content: center;
     align-items: center;
     color: white;
+    text-shadow: 1px 1px rgb(144, 8, 144);
 }
 #home::before{
     content:'';
     right: 0;
     top: 0;
     position: absolute;
-    background: url('../public/images/portback.png') no-repeat center center/cover;
-    height: 960px;
+    background: url('images/back.jpg') no-repeat center center/cover;
+    height: 950px;
     width: 100%;
     z-index: -1;
     opacity: .8;
@@ -92,7 +93,7 @@ html{
     justify-content: center;
     font-family: Arial;
     font-size: 30px;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -135,13 +136,19 @@ html{
 .card-body dl{
     margin-left: 30px;
 }
-.card-footer button{
+.card-footer{
     display: flex;
-    margin-left: 125px;
-    margin-top: 30px;
+    justify-content: center;
 }
-.card-footer button a{
+.card-footer a{
+    text-align: center;
+    justify-content: center;
     text-decoration: none;
+    color: white;
+    background-color:  rgb(209, 26, 87);
+    margin-top: 100px;
+    border-radius: 30px;
+    width: 120px;
 }
 .box-1{
     display: flex;
